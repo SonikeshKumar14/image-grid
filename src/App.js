@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Typography, Input, List, Card, Image, Space } from "antd";
-
+// <link rel="stylesheet" href="https://kit.fontawesome.com/cd57f38d05.css" crossorigin="anonymous">
+// <script src="https://kit.fontawesome.com/cd57f38d05.js" crossorigin="anonymous"></script>
 function App() {
   const [searchText, setSearchText] = useState("")
   const [dataSource, setDataSource] = useState([])
